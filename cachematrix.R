@@ -1,8 +1,8 @@
 ## Put comments here that give an overall description of what your
 ## functions do
 
-## Write a short comment describing this function
 
+## Creates a specal inverted-cashed matrix as a list from a matrix object
 makeCacheMatrix <- function(x = matrix()) {
   i <- NULL
   set <- function(y) {
@@ -18,7 +18,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## Extract a inverted matrix object from inverted-cashed matrix as a list 
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
